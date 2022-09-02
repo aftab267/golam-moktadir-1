@@ -33,6 +33,7 @@ if(empty($emp_image)){
 mysqli_query($connect,$sql);
 
 header('location:showdata.php?message=Data Updated Successfully');
+//commit
 
 
 ?>
